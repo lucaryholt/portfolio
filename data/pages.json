@@ -1,0 +1,16 @@
+[
+  {
+    "name" : "Hadoc File Sharing",
+    "description" : "Site for quickly sharing files",
+    "link" : "http://hadoc.xyz",
+    "imageFile" : "/images/hadoc.png",
+    "enabled" : true
+  },
+  {
+    "name" : "Node.JS Wisdom",
+    "description" : "Note side for Node.JS elective",
+    "link" : "http://hadoc.xyz:45555",
+    "imageFile" : "/images/nodejs.svg",
+    "enabled" : true
+  }
+]
