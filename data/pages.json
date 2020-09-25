@@ -2,15 +2,15 @@
   {
     "name" : "Hadoc File Sharing",
     "description" : "Site for quickly sharing files",
-    "link" : "http://hadoc.xyz",
+    "link" : "http://hadoc.xyz:44444",
     "imageFile" : "/images/hadoc.png",
     "enabled" : true
   },
   {
-    "name" : "Node.JS Wisdom",
-    "description" : "Note side for Node.JS elective",
+    "name" : "Knowledge Portal",
+    "description" : "Notebooks for electives",
     "link" : "http://hadoc.xyz:45555",
-    "imageFile" : "/images/nodejs.svg",
+    "imageFile" : "/images/portal.png",
     "enabled" : true
   }
 ]

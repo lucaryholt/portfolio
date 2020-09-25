@@ -3,7 +3,10 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start-dev": "PORT=8080 nodemon app.js",
+    "start-dev": "cross-env PORT=8080 nodemon app.js",
     "start-prod": "node app.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
   }
 }
