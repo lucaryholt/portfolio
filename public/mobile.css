@@ -3,7 +3,7 @@
 }
 
 .page-title{
-    font-size: 6.5em;
+    font-size: 2em;
 }
 
 .page-section{
@@ -22,4 +22,9 @@
 .project-image{
     width: 120px;
     height: 120px;
+}
+
+.sub-section-collapse{
+    padding-top: 60px;
+    font-size: 2em;
 }

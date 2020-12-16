@@ -2,15 +2,24 @@ const ip = window.location.origin;
 
 $.ajax({
     method: "GET",
-    url: ip + "/api/pages"
+    url: ip + "/api/live-projects"
 }).done(function (data){
     for(let i = 0; i < data.data.length; i++){
-        appendPage(data.data[i]);
+        appendPage(data.data[i], '#live-projects-holder');
     }
 });
 
-function appendPage(data) {
-    const pageHolder = $('#pages-holder');
+$.ajax({
+    method: "GET",
+    url: ip + "/api/other-projects"
+}).done(function (data){
+    for(let i = 0; i < data.data.length; i++){
+        appendPage(data.data[i], '#other-projects-holder');
+    }
+});
+
+function appendPage(data, id) {
+    const pageHolder = $(id);
 
     pageHolder.append(
         `<div class="project">` +

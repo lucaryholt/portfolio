@@ -10,10 +10,20 @@ const app = express();
 const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
-const pages = require('./data/pages.json');
+const liveProjects = require('./data/live-projects.json');
+const otherProjects = require('./data/other-projects.json')
 
-app.get('/api/pages', (req, res) => {
-    const enabledPages = pages.filter(page => {
+app.get('/api/live-projects', (req, res) => {
+    const enabledPages = liveProjects.filter(page => {
+        if(page.enabled === true){
+            return page;
+        }
+    });
+    res.send({ data: enabledPages });
+});
+
+app.get('/api/other-projects', (req, res) => {
+    const enabledPages = otherProjects.filter(page => {
         if(page.enabled === true){
             return page;
         }

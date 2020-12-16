@@ -1,0 +1,23 @@
+[
+  {
+    "name" : "ambrScope Android",
+    "description" : "Companion app for Node.JS page",
+    "link" : "https://github.com/lucaryholt/ambrScope_android",
+    "imageFile" : "http://ambrscope.ryholt.net/images/icon300.png",
+    "enabled" : true
+  },
+  {
+    "name" : "MC Controller",
+    "description" : "Discord bot made to turn home server on and off",
+    "link" : "https://github.com/lucaryholt/MC_Controller",
+    "imageFile" : "./Images/discord-logo.png",
+    "enabled" : true
+  },
+  {
+    "name" : "GP File Server",
+    "description" : "General Purpose File Server",
+    "link" : "https://github.com/lucaryholt/gp_file_server",
+    "imageFile" : "./Images/file-solid.svg",
+    "enabled" : true
+  }
+]
