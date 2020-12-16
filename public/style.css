@@ -1,34 +1,31 @@
-.page-image{
-    padding-top: 10px;
-    height: 100px;
-}
-.page-card{
-    width: 300px;
-    text-align: center;
+body{
+    background-color: cornflowerblue;
+    color: ghostwhite;
 }
 
-.page-card-body{
-    background: ghostwhite;
+.container{
+    padding: 20px;
 }
 
-.title{
-    text-decoration: none;
-}
-
-.page-holder{
-    padding: 5px;
-}
-
-#pages-holder{
-    justify-content: center;
-}
-
-.title-holder{
-    justify-content: center;
-    padding: 30px;
+.contact-holder{
+    font-size: 2em;
 }
 
 .link-holder{
     text-decoration: none!important;
-    color: black;
+    color: darkslateblue;
+}
+
+.project{
+    padding-top: 5px;
+    font-size: 1.2em;
+}
+
+.project-image{
+    width: 30px;
+    height: 30px;
+}
+
+.page-section{
+    padding-top: 40px;
 }

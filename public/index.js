@@ -9,19 +9,18 @@ $.ajax({
     }
 });
 
-function appendPage(data){
+function appendPage(data) {
     const pageHolder = $('#pages-holder');
 
     pageHolder.append(
-        '<a href="' + data.link + '" class="link-holder">' +
-            '<div class="page-holder">' +
-                '<div class="card page-card">' +
-                    '<div class="card-body page-card-body">' +
-                        '<img class="page-image" src="' + data.imageFile + '" alt="' + data.title + '">' +
-                        '<h3 class="title">' + data.name + '</h3>' +
-                        '<p>' + data.description + '</p>' +
-                    '</div>' +
-                '</div>' +
-            '</div>' +
-        '</a>');
+        `<div class="project">` +
+            `<span>` +
+                `<a class="link-holder" target="_blank" href="${data.link}">` +
+                    `<img class="project-image" src="${data.imageFile}" alt="Logo">` +
+                    `<strong> ${data.name}</strong>` +
+                `</a>` +
+                ` : ${data.description}` +
+            `</span>` +
+        `</div>`
+    );
 }
