@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+console.log(process.env.PORT)
+
 const express = require("express");
 const path = require("path");
 
@@ -17,12 +21,10 @@ app.get('/api/pages', (req, res) => {
     res.send({ data: enabledPages });
 });
 
-const port = process.env.PORT ? process.env.PORT : 80;
-
-app.listen(port, (error) => {
+app.listen(process.env.PORT, (error) => {
     if(error){
         console.log('Error starting server.');
     } else {
-        console.log('Server started on port:', Number(port));
+        console.log('Server started on port:', Number(process.env.PORT));
     }
 });

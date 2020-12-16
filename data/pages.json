@@ -1,16 +1,23 @@
 [
-  {
+   {
+    "name" : "ambrScope",
+    "description" : "Exam project for Node.JS elective",
+    "link" : "http://ambrscope.ryholt.net",
+    "imageFile" : "http://ambrscope.ryholt.net/images/icon300.png",
+    "enabled" : true
+   },
+   {
     "name" : "Hadoc File Sharing",
     "description" : "Site for quickly sharing files",
-    "link" : "http://hadoc.xyz:44444",
-    "imageFile" : "/images/hadoc.png",
+    "link" : "http://hadoc.xyz",
+    "imageFile" : "http://hadoc.xyz/images/hadoc_file_sharing.png",
     "enabled" : true
   },
   {
     "name" : "Knowledge Portal",
     "description" : "Notebooks for electives",
-    "link" : "http://hadoc.xyz:45555",
-    "imageFile" : "/images/portal.png",
+    "link" : "http://knowledge-portal.ryholt.net",
+    "imageFile" : "http://knowledge-portal.ryholt.net/images/portal.png",
     "enabled" : true
   }
 ]
