@@ -1,0 +1,25 @@
+.container{
+    padding: 60px 5px 60px;
+}
+
+.page-title{
+    font-size: 6.5em;
+}
+
+.page-section{
+    padding-top: 120px;
+    font-size: 3em;
+}
+
+.page-section-title{
+    font-size: 2em;
+}
+
+.project{
+    font-size: 1.4em;
+}
+
+.project-image{
+    width: 120px;
+    height: 120px;
+}

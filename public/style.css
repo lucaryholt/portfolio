@@ -12,9 +12,22 @@ body{
     font-size: 2em;
 }
 
+.contact-holder span{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8em;
+}
+
+.name{
+    color: #483d8b;
+}
+
 .link-holder{
     text-decoration: none!important;
     color: #483d8b;
+}
+
+.page-section{
+    padding-top: 40px;
 }
 
 .project{
@@ -25,8 +38,4 @@ body{
 .project-image{
     width: 30px;
     height: 30px;
-}
-
-.page-section{
-    padding-top: 40px;
 }
