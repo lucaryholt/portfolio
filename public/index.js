@@ -25,7 +25,6 @@ function appendPage(data, id) {
         `<div class="project">` +
             `<span>` +
                 `<a class="link-holder" target="_blank" href="${data.link}">` +
-                    `<img class="project-image" src="${data.imageFile}" alt="Logo">` +
                     `<strong> ${data.name}</strong>` +
                 `</a>` +
                 ` : ${data.description}` +
