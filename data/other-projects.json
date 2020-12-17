@@ -6,7 +6,7 @@
     "enabled" : true
   },
   {
-    "name" : "MC Controller",
+    "name" : "Kause",
     "description" : "Discord bot made to turn home server on and off",
     "link" : "https://github.com/lucaryholt/MC_Controller",
     "enabled" : true
