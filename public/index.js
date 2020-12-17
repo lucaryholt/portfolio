@@ -1,21 +1,12 @@
-const ip = window.location.origin;
-
 $.ajax({
-    method: "GET",
-    url: ip + "/api/live-projects"
-}).done(function (data){
-    for(let i = 0; i < data.data.length; i++){
-        appendPage(data.data[i], '#live-projects-holder');
-    }
-});
-
-$.ajax({
-    method: "GET",
-    url: ip + "/api/other-projects"
-}).done(function (data){
-    for(let i = 0; i < data.data.length; i++){
-        appendPage(data.data[i], '#other-projects-holder');
-    }
+    url: '/api/projects'
+}).done(response => {
+    response.live.map(page => {
+        appendPage(page, '#live-projects-holder');
+    });
+    response.other.map(page => {
+        appendPage(page, '#other-projects-holder');
+    });
 });
 
 function appendPage(data, id) {

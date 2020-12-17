@@ -6,6 +6,11 @@
     font-size: 0.8em;
 }
 
+.collapse-trigger h4{
+    padding-top: 60px;
+    font-size: 2em;
+}
+
 .page-title{
     font-size: 2.5em;
 }
@@ -15,20 +20,10 @@
     font-size: 3em;
 }
 
-.page-section-title{
+.page-section h2{
     font-size: 2em;
 }
 
 .project{
     font-size: 1.4em;
-}
-
-.project-image{
-    width: 120px;
-    height: 120px;
-}
-
-.sub-section-collapse{
-    padding-top: 60px;
-    font-size: 2em;
 }

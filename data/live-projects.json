@@ -6,7 +6,7 @@
     "enabled" : true
    },
    {
-    "name" : "Hadoc File Sharing",
+    "name" : "Hadoc",
     "description" : "Site for quickly sharing files",
     "link" : "http://hadoc.xyz",
     "enabled" : true

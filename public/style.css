@@ -1,39 +1,32 @@
+/* Set page colors */
 :root{
     --background: cornflowerblue;
     --text: ghostwhite;
     --accent: #483d8b;
 }
 
+/* Removes scrollbar in Firefox */
+html{
+    scrollbar-width: none;
+}
+
+/* Removes scrollbar in Chrome, Edge and others */
+body::-webkit-scrollbar{
+    display: none;
+}
+
 body{
     background-color: var(--background);
     color: var(--text);
     font-family: 'JetBrains Mono', monospace;
-    -ms-overflow-style: none;
-}
-
-body::-webkit-scrollbar{
-    display: none;
 }
 
 .container{
     padding: 80px;
 }
 
-.contact-holder{
-    font-size: 2em;
-}
-
-.contact-holder span{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.8em;
-}
-
-html{
-    scrollbar-width: none;
-}
-
-.name{
-    color: var(--accent);
+.collapse-trigger h4{
+    padding-top: 20px;
 }
 
 .link-holder{
@@ -45,16 +38,11 @@ html{
     padding-top: 40px;
 }
 
+.page-section .contact-holder{
+    font-size: 2em;
+}
+
 .project{
     padding-top: 5px;
     font-size: 1.2em;
-}
-
-.project-image{
-    width: 30px;
-    height: 30px;
-}
-
-.sub-section-collapse{
-    padding-top: 20px;
 }
