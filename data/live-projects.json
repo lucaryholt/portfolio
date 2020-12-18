@@ -2,19 +2,19 @@
    {
     "name" : "ambrScope",
     "description" : "Exam project for Node.JS elective",
-    "link" : "http://ambrscope.ryholt.net",
+    "link" : "https://ambrscope.ryholt.net",
     "enabled" : true
    },
    {
     "name" : "Hadoc",
     "description" : "Site for quickly sharing files",
-    "link" : "http://hadoc.xyz",
+    "link" : "https://hadoc.xyz",
     "enabled" : true
   },
   {
     "name" : "Knowledge Portal",
     "description" : "Notebooks for various subjects",
-    "link" : "http://knowledge-portal.ryholt.net",
+    "link" : "https://knowledge-portal.ryholt.net",
     "enabled" : true
   }
 ]
