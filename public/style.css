@@ -34,6 +34,10 @@ body{
     color: var(--accent);
 }
 
+.modal{
+    color: var(--accent);
+}
+
 .page-section{
     padding-top: 40px;
 }
