@@ -25,6 +25,11 @@ body{
     padding: 80px;
 }
 
+.collapse-text{
+    padding: 10px;
+    font-size: 0.9em;
+}
+
 .collapse-trigger h4{
     padding-top: 20px;
 }
