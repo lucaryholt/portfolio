@@ -1,20 +1,50 @@
 [
    {
-    "name" : "ambrScope",
-    "description" : "Exam project for Node.JS elective",
-    "link" : "https://ambrscope.ryholt.net",
-    "enabled" : true
+     "name" : "ambrScope",
+     "description" : "Exam project for Node.JS elective",
+     "text" : "This webapp is made as a exam project in a Node.JS elective.<br><br>It is a website for collectors of amber, where they can share spots where they have found amber. The inspiration for this idea comes from my little brother, who collects amber and mentioned that he and like minded people wanted such a site (and app).",
+     "links" : [
+       {
+         "link" : "https://ambrscope.ryholt.net",
+         "icon" : "fas fa-link"
+       },
+       {
+         "link" : "https://github.com/lucaryholt/ambrScope_node",
+         "icon" : "fab fa-github"
+       }
+     ],
+     "enabled" : true
    },
    {
-    "name" : "Hadoc",
-    "description" : "Site for quickly sharing files",
-    "link" : "https://hadoc.xyz",
-    "enabled" : true
+     "name" : "Hadoc",
+     "description" : "Site for quickly sharing files",
+     "text" : "File sharing website made with Node.JS and Express framework. Created as a learning exercise.",
+     "links" : [
+       {
+         "link" : "https://hadoc.xyz",
+         "icon" : "fas fa-link"
+       },
+       {
+         "link" : "https://github.com/lucaryholt/hadoc_file_sharing_redux",
+         "icon" : "fab fa-github"
+       }
+     ],
+     "enabled" : true
   },
   {
     "name" : "Knowledge Portal",
     "description" : "Notebooks for various subjects",
-    "link" : "https://knowledge-portal.ryholt.net",
+    "text" : "A site containing documentation I have learned in select subjects.",
+    "links" : [
+      {
+        "link" : "https://knowledge-portal.ryholt.net",
+        "icon" : "fas fa-link"
+      },
+      {
+        "link" : "https://github.com/lucaryholt/knowledge_portal",
+        "icon" : "fab fa-github"
+      }
+    ],
     "enabled" : true
   }
 ]

@@ -34,6 +34,11 @@ body{
     padding-top: 20px;
 }
 
+.link-icon{
+    padding: 5px;
+    font-size: 2em;
+}
+
 .link-holder{
     text-decoration: none!important;
     color: var(--accent);

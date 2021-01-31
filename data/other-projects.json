@@ -2,29 +2,43 @@
   {
     "name" : "ambrScope Android",
     "description" : "Companion app for Node.JS page",
-    "link" : "https://github.com/lucaryholt/ambrScope_android",
-    "enabled" : true,
-    "type" : "link"
+    "text" : "This Android app is made as a exam project in a Android/iOS elective.<br><br>It is an app for collectors of amber, where they can share spots where they have found amber. The inspiration for this idea comes from my little brother, who collects amber and mentioned that he and like minded people wanted such an app (and webapp).",
+    "links" : [
+      {
+        "link" : "https://github.com/lucaryholt/ambrScope_android",
+        "icon" : "fab fa-github"
+      }
+    ],
+    "enabled" : true
   },
   {
     "name" : "Kause",
     "description" : "Discord bot made to turn home server on and off",
-    "link" : "https://github.com/lucaryholt/MC_Controller",
-    "enabled" : true,
-    "type" : "link"
+    "text" : "Discord bot that controls server hosted on local server. To prevent unnecessary power use, users of the server can turn on and off the server via this Discord bot.",
+    "links":  [
+      {
+        "link" : "https://github.com/lucaryholt/MC_Controller",
+        "icon" : "fab fa-github"
+      }
+    ],
+    "enabled" : true
   },
   {
     "name" : "GP File Server",
     "description" : "General Purpose File Server",
-    "link" : "https://github.com/lucaryholt/gp_file_server",
-    "enabled" : true,
-    "type" : "link"
+    "text" : "I wanted a file server that I could reuse across my projects, without relying on services like S3.<br>It is written as a Express REST-API.",
+    "links" : [
+      {
+        "link" : "https://github.com/lucaryholt/gp_file_server",
+        "icon" : "fab fa-github"
+      }
+    ],
+    "enabled" : true
   },
   {
     "name" : "TKBasisNAMonthly",
     "description" : "Monthly calculations of weather data for the North Atlantic",
     "text" : "An application made for DMI (Danish Meteorological Institute) as an intern.<br>The app was made as a replacement for an older app and rewritten from scratch.<br><br>It runs once a hour on a DMI server and pulls daily weather values, for multiple parameters, in order to calculate monthly weather values.<br><br>Written in Java and manipulates data from PostgreSQL database.<br>The codebase is proprietary and can not be displayed here.",
-    "enabled" : false,
-    "type" : "collapse"
+    "enabled" : false
   }
 ]
