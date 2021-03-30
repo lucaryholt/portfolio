@@ -38,7 +38,13 @@
   {
     "name" : "TKBasisNAMonthly",
     "description" : "Monthly calculations of weather data for the North Atlantic",
-    "text" : "An application made for DMI (Danish Meteorological Institute) as an intern.<br>The app was made as a replacement for an older app and rewritten from scratch.<br><br>It runs once a hour on a DMI server and pulls daily weather values, for multiple parameters, in order to calculate monthly weather values.<br><br>Written in Java and manipulates data from PostgreSQL database.<br>The codebase is proprietary and can not be displayed here.",
-    "enabled" : false
+    "text" : "An application made for DMI (Danish Meteorological Institute) as an intern.<br>The app was made as a replacement for an older app and rewritten from scratch.<br><br>It runs once a hour on a DMI server and pulls daily weather values, for multiple parameters, in order to calculate monthly weather values.<br><br>Written in Java and manipulates data from PostgreSQL database.<br>The codebase is proprietary and can not be displayed here.<br>Another app <b>TKBasisNAYearly</b>, was made on the basis of this one, as they share the same calculations.",
+    "enabled" : true
+  },
+  {
+    "name" : "TKBasisNAClimateNormal",
+    "description" : "30 year climate normal values for the North Atlantic",
+    "text" : "Another application made for DMI (Danish Meteorological Institute) as an intern.<br>This app was made to satisfy the WMO demand, to deliver climate normal values for the time period 1991-2020.<br>This task was previously done by hand in an Excel spreadsheet. I was therefore tasked to create this app, that would calculate these values programmatically.",
+    "enabled" : true
   }
 ]
