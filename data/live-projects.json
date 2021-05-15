@@ -5,7 +5,7 @@
      "text" : "This webapp is made as a exam project in a Node.JS elective.<br><br>It is a website for collectors of amber, where they can share spots where they have found amber. The inspiration for this idea comes from my little brother, who collects amber and mentioned that he and like minded people wanted such a site (and app).",
      "links" : [
        {
-         "link" : "https://ambrscope.ryholt.net",
+         "link" : "https://ambrscope.ryholt.xyz",
          "icon" : "fas fa-link"
        },
        {
@@ -21,7 +21,7 @@
      "text" : "File sharing website made with Node.JS and Express framework. Created as a learning exercise.",
      "links" : [
        {
-         "link" : "https://hadoc.xyz",
+         "link" : "https://hadoc.ryholt.xyz",
          "icon" : "fas fa-link"
        },
        {
@@ -37,7 +37,7 @@
     "text" : "A site containing documentation I have learned in select subjects.",
     "links" : [
       {
-        "link" : "https://knowledge-portal.ryholt.net",
+        "link" : "https://knowledge-portal.ryholt.xyz",
         "icon" : "fas fa-link"
       },
       {
