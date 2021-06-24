@@ -46,5 +46,11 @@
     "description" : "30 year climate normal values for the North Atlantic",
     "text" : "Another Java application made for DMI (Danish Meteorological Institute) as an intern.<br>This app was made to satisfy the WMO demand, to deliver climate normal values for the time period 1991-2020.<br>This task was previously done by hand in an Excel spreadsheet. I was therefore tasked to create this app, that would calculate these values programmatically.",
     "enabled" : true
+  },
+  {
+    "name" : "Sialuk",
+    "description" : "Manual input of precipitation values from Greenland and Faeroe Islands",
+    "text" : "An webapplication made using Jersey REST-framework.<br>Made to be used by climatologists at DMI.<br>Developed in collaboration with DMI, as part of my graduation project from the Datamatiker (Computer Science) education.<br>The application is now used in production at DMI.",
+    "enabled" : true
   }
 ]
